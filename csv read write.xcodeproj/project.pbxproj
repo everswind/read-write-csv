@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98FA678F2315F49500E47550 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FA678E2315F49500E47550 /* AppDelegate.m */; };
+		98FA67922315F49500E47550 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FA67912315F49500E47550 /* ViewController.m */; };
+		98FA67942315F49600E47550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98FA67932315F49600E47550 /* Assets.xcassets */; };
+		98FA67972315F49600E47550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98FA67952315F49600E47550 /* Main.storyboard */; };
+		98FA679A2315F49600E47550 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FA67992315F49600E47550 /* main.m */; };
+		98FA67A52315F49600E47550 /* csv_read_writeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FA67A42315F49600E47550 /* csv_read_writeTests.m */; };
+		98FA67B02315F49600E47550 /* csv_read_writeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98FA67AF2315F49600E47550 /* csv_read_writeUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98FA67A12315F49600E47550 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98FA67822315F49400E47550 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98FA67892315F49500E47550;
+			remoteInfo = "csv read write";
+		};
+		98FA67AC2315F49600E47550 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98FA67822315F49400E47550 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98FA67892315F49500E47550;
+			remoteInfo = "csv read write";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98FA678A2315F49500E47550 /* csv read write.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "csv read write.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98FA678D2315F49500E47550 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		98FA678E2315F49500E47550 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		98FA67902315F49500E47550 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		98FA67912315F49500E47550 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		98FA67932315F49600E47550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98FA67962315F49600E47550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		98FA67982315F49600E47550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98FA67992315F49600E47550 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98FA679B2315F49600E47550 /* csv_read_write.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = csv_read_write.entitlements; sourceTree = "<group>"; };
+		98FA67A02315F49600E47550 /* csv read writeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "csv read writeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98FA67A42315F49600E47550 /* csv_read_writeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = csv_read_writeTests.m; sourceTree = "<group>"; };
+		98FA67A62315F49600E47550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98FA67AB2315F49600E47550 /* csv read writeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "csv read writeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98FA67AF2315F49600E47550 /* csv_read_writeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = csv_read_writeUITests.m; sourceTree = "<group>"; };
+		98FA67B12315F49600E47550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98FA67872315F49500E47550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FA679D2315F49600E47550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FA67A82315F49600E47550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98FA67812315F49400E47550 = {
+			isa = PBXGroup;
+			children = (
+				98FA678C2315F49500E47550 /* csv read write */,
+				98FA67A32315F49600E47550 /* csv read writeTests */,
+				98FA67AE2315F49600E47550 /* csv read writeUITests */,
+				98FA678B2315F49500E47550 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98FA678B2315F49500E47550 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98FA678A2315F49500E47550 /* csv read write.app */,
+				98FA67A02315F49600E47550 /* csv read writeTests.xctest */,
+				98FA67AB2315F49600E47550 /* csv read writeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98FA678C2315F49500E47550 /* csv read write */ = {
+			isa = PBXGroup;
+			children = (
+				98FA678D2315F49500E47550 /* AppDelegate.h */,
+				98FA678E2315F49500E47550 /* AppDelegate.m */,
+				98FA67902315F49500E47550 /* ViewController.h */,
+				98FA67912315F49500E47550 /* ViewController.m */,
+				98FA67932315F49600E47550 /* Assets.xcassets */,
+				98FA67952315F49600E47550 /* Main.storyboard */,
+				98FA67982315F49600E47550 /* Info.plist */,
+				98FA67992315F49600E47550 /* main.m */,
+				98FA679B2315F49600E47550 /* csv_read_write.entitlements */,
+			);
+			path = "csv read write";
+			sourceTree = "<group>";
+		};
+		98FA67A32315F49600E47550 /* csv read writeTests */ = {
+			isa = PBXGroup;
+			children = (
+				98FA67A42315F49600E47550 /* csv_read_writeTests.m */,
+				98FA67A62315F49600E47550 /* Info.plist */,
+			);
+			path = "csv read writeTests";
+			sourceTree = "<group>";
+		};
+		98FA67AE2315F49600E47550 /* csv read writeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98FA67AF2315F49600E47550 /* csv_read_writeUITests.m */,
+				98FA67B12315F49600E47550 /* Info.plist */,
+			);
+			path = "csv read writeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98FA67892315F49500E47550 /* csv read write */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98FA67B42315F49600E47550 /* Build configuration list for PBXNativeTarget "csv read write" */;
+			buildPhases = (
+				98FA67862315F49500E47550 /* Sources */,
+				98FA67872315F49500E47550 /* Frameworks */,
+				98FA67882315F49500E47550 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "csv read write";
+			productName = "csv read write";
+			productReference = 98FA678A2315F49500E47550 /* csv read write.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98FA679F2315F49600E47550 /* csv read writeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98FA67B72315F49600E47550 /* Build configuration list for PBXNativeTarget "csv read writeTests" */;
+			buildPhases = (
+				98FA679C2315F49600E47550 /* Sources */,
+				98FA679D2315F49600E47550 /* Frameworks */,
+				98FA679E2315F49600E47550 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98FA67A22315F49600E47550 /* PBXTargetDependency */,
+			);
+			name = "csv read writeTests";
+			productName = "csv read writeTests";
+			productReference = 98FA67A02315F49600E47550 /* csv read writeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98FA67AA2315F49600E47550 /* csv read writeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98FA67BA2315F49600E47550 /* Build configuration list for PBXNativeTarget "csv read writeUITests" */;
+			buildPhases = (
+				98FA67A72315F49600E47550 /* Sources */,
+				98FA67A82315F49600E47550 /* Frameworks */,
+				98FA67A92315F49600E47550 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98FA67AD2315F49600E47550 /* PBXTargetDependency */,
+			);
+			name = "csv read writeUITests";
+			productName = "csv read writeUITests";
+			productReference = 98FA67AB2315F49600E47550 /* csv read writeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98FA67822315F49400E47550 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Xiongfeng Zhu";
+				TargetAttributes = {
+					98FA67892315F49500E47550 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					98FA679F2315F49600E47550 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 98FA67892315F49500E47550;
+					};
+					98FA67AA2315F49600E47550 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 98FA67892315F49500E47550;
+					};
+				};
+			};
+			buildConfigurationList = 98FA67852315F49400E47550 /* Build configuration list for PBXProject "csv read write" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98FA67812315F49400E47550;
+			productRefGroup = 98FA678B2315F49500E47550 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98FA67892315F49500E47550 /* csv read write */,
+				98FA679F2315F49600E47550 /* csv read writeTests */,
+				98FA67AA2315F49600E47550 /* csv read writeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98FA67882315F49500E47550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FA67942315F49600E47550 /* Assets.xcassets in Resources */,
+				98FA67972315F49600E47550 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FA679E2315F49600E47550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FA67A92315F49600E47550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98FA67862315F49500E47550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FA67922315F49500E47550 /* ViewController.m in Sources */,
+				98FA679A2315F49600E47550 /* main.m in Sources */,
+				98FA678F2315F49500E47550 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FA679C2315F49600E47550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FA67A52315F49600E47550 /* csv_read_writeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98FA67A72315F49600E47550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FA67B02315F49600E47550 /* csv_read_writeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98FA67A22315F49600E47550 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98FA67892315F49500E47550 /* csv read write */;
+			targetProxy = 98FA67A12315F49600E47550 /* PBXContainerItemProxy */;
+		};
+		98FA67AD2315F49600E47550 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98FA67892315F49500E47550 /* csv read write */;
+			targetProxy = 98FA67AC2315F49600E47550 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98FA67952315F49600E47550 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98FA67962315F49600E47550 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98FA67B22315F49600E47550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		98FA67B32315F49600E47550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		98FA67B52315F49600E47550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "csv read write/csv_read_write.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "csv read write/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "XFZ.csv-read-write";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		98FA67B62315F49600E47550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "csv read write/csv_read_write.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "csv read write/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "XFZ.csv-read-write";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		98FA67B82315F49600E47550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "csv read writeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "XFZ.csv-read-writeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/csv read write.app/Contents/MacOS/csv read write";
+			};
+			name = Debug;
+		};
+		98FA67B92315F49600E47550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "csv read writeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "XFZ.csv-read-writeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/csv read write.app/Contents/MacOS/csv read write";
+			};
+			name = Release;
+		};
+		98FA67BB2315F49600E47550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "csv read writeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "XFZ.csv-read-writeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "csv read write";
+			};
+			name = Debug;
+		};
+		98FA67BC2315F49600E47550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "csv read writeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "XFZ.csv-read-writeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "csv read write";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98FA67852315F49400E47550 /* Build configuration list for PBXProject "csv read write" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FA67B22315F49600E47550 /* Debug */,
+				98FA67B32315F49600E47550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98FA67B42315F49600E47550 /* Build configuration list for PBXNativeTarget "csv read write" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FA67B52315F49600E47550 /* Debug */,
+				98FA67B62315F49600E47550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98FA67B72315F49600E47550 /* Build configuration list for PBXNativeTarget "csv read writeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FA67B82315F49600E47550 /* Debug */,
+				98FA67B92315F49600E47550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98FA67BA2315F49600E47550 /* Build configuration list for PBXNativeTarget "csv read writeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98FA67BB2315F49600E47550 /* Debug */,
+				98FA67BC2315F49600E47550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98FA67822315F49400E47550 /* Project object */;
+}
